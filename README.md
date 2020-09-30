@@ -40,11 +40,11 @@ A lo largo del mes, se revelará una palabra clave de forma diaria, que en combi
 
 | Domingo | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado |
 |---------|---------|---------|---------|---------|---------|---------|
-| | | | | <sup>01</sup> tema | <sup>04</sup> tema | <sup>04</sup> tema |
-| <sup>04</sup> tema | <sup>05</sup> tema | <sup>06</sup> tema | <sup>07</sup> tema | <sup>08</sup> tema | <sup>09</sup> tema | <sup>10</sup> tema |
-| <sup>11</sup> tema | <sup>12</sup> tema | <sup>13</sup> tema | <sup>14</sup> tema | <sup>15</sup> tema | <sup>16</sup> tema | <sup>17</sup> tema |
-| <sup>18</sup> tema | <sup>19</sup> tema | <sup>20</sup> tema | <sup>21</sup> tema | <sup>22</sup> tema | <sup>23</sup> tema | <sup>24</sup> tema |
-| <sup>25</sup> tema | <sup>26</sup> tema | <sup>27</sup> tema | <sup>28</sup> tema | <sup>29</sup> tema | <sup>30</sup> tema | <sup>31</sup> tema |
+| | | | | <sup>01</sup> - | <sup>04</sup> - | <sup>04</sup> - |
+| <sup>04</sup> - | <sup>05</sup> - | <sup>06</sup> - | <sup>07</sup> - | <sup>08</sup> - | <sup>09</sup> - | <sup>10</sup> - |
+| <sup>11</sup> - | <sup>12</sup> - | <sup>13</sup> - | <sup>14</sup> - | <sup>15</sup> - | <sup>16</sup> - | <sup>17</sup> - |
+| <sup>18</sup> - | <sup>19</sup> - | <sup>20</sup> - | <sup>21</sup> - | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
+| <sup>25</sup> - | <sup>26</sup> - | <sup>27</sup> - | <sup>28</sup> - | <sup>29</sup> - | <sup>30</sup> - | <sup>31</sup> - |
 
 ### ¿Cómo contribuir en este repositorio?
 
