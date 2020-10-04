@@ -1,3 +1,5 @@
+[English](CONTRIBUTING-en.md)
+
 # Cómo contribuir al H-ART-cktober 2020
 
 - [Restricciones](#restricciones)
@@ -132,6 +134,11 @@ donde `mi_correo@dominio.com` es la dirección de correo eléctronico que usaste
 
 `git -config --local user.name "Nombre y Apellido"`
 
+**Nota: los pasos realizados hasta este punto, solo deben hacerse una vez.
+ Todo lo que sigue a partir de aquí, se debe hacer por cada pull request que hagas**
+
+<a name="nuevo-pull"/>
+
 Cambiate a la rama develop, escribiendo lo siguiente:
 
 `git checkout develop`
@@ -178,9 +185,9 @@ A continuación, pulsa el botón **new pull request**
 
 ![Image](doc/assets/contributing/pull_request/10.jpg)
 
-(1) Selecciona el repositorio el repositorio a hacer el pull request,
+(1) Selecciona el repositorio al que hacer el pull request(comienza con el nombre del otro usuario),
  (2) seguido de la rama a la que quieras hacer el pull request (para este repositorio siempre debes hacer pull request contra la rama develop);
- (3) elige tu repositorio, al que previamente hiciste fork,
+ (3) elige tu repositorio, al que previamente hiciste fork (comienza con tu nombre de usuario),
  (4) y escoge la rama con la que quieres añadir cambios al repositorios principal, es decir, aquella que hiciste push anterioermente.
   
 Luego, presiona el botón **create pull request**
@@ -201,19 +208,130 @@ Debes agregar un título a tú pull request, y opcionalmente puedes añadir una 
 <a name="recomendaciones-adicionales"/>
 
 # Recomendaciones adicionales
-	- [Creando develop-2](#creando-develop-2)
-	- [Sincronizando tu fork](#sincronizando-tu-fork)
-	- [Sincronizando los archivos en tu computador]
+
+Si tienes alguna duda extra, puedes crear un [Issue](https://github.com/kevinesaa/H-ART-cktober-2020/issues) preguntando cualquier duda que tengas.
+
+- [Creando develop_2](#creando-develop-2)
+- [Sincronizando tu fork](#sincronizando-tu-fork)
+- [Sincronizando los archivos en tu computador](sincronizando-los-archivos-locales)
+- [Antes de hacer otro pull request](#antes-de-hacer-otro-pull-request)
 
 <a name="creando-develop-2"/>
 
-### Creando develop-2
+### Creando develop_2
+
+La rama develop_2, es totalmente opcional y sirve para puedas tener todos
+ tus creaciones en una única rama, mientras esperas a que tu pull request
+ sea integrado al repositorio principal, y luego sincronizar tu fork y el repositorio en tu computador.
+ 
+Abre una consola de Git en la carpeta principal del repositorio en tu computador. 
+Luego, cambiate a la rama **develop** escribiendo lo siguiente:
+
+`git checkout develop`
+
+Ahora crea la rama *develop_2*, para ello escribe lo siguiente:
+
+`git branch develop_2`
+
+Para añadir los cambios de otra rama a la rama develop_2, primero debes cambiarte a la misma escribiendo:
+
+`git checkout develop_2`
+
+Y añadimos los cambios de la otra rama mediante un **merge**, de la siguiente forma:
+
+`git merge branch_name`
+
+Todos estos pasos puedes hacerlos después de cada pull request, para mantener todos tus archivos en una única rama.
+Además, después de cada *merge* es recomendable borrar la rama que se ha integrado; para ello hacemos lo siguiente:
+
+`git branch -D branch_name`
+
+note que la bandera `-D` debe ser escrita en mayúscula.
+
+Si lo desea, también puede añadir la rama *develop_2* a su fork en Github, escribiendo un push de la forma siguiente:
+
+`git push origin develop_2`
+
+Recuerda que para hacer un push, debes estar en la consola de Git con la
+ rama que quieres actualizar en Github; asegurate de ello
+ haciendo `git checkout develop_2` antes.
+
+También es recomendable que borres la rama de tus archivos en Github, luego hacer el pull request, para ello puedes escribir lo siguiente: 
+
+`git push --delete origin branch_name`
 
 <a name="sincronizando-tu-fork"/>
 
 ### Sincronizando tu fork
 
+Sincronizar un fork con el repositorio original, es similar a hacer un pull request. Primero, debes ir al fork en Github y buscar la opción pull request.
+
+![Image](doc/assets/contributing/pull_request/09.jpg)
+
+de igual forma, debes presionar el botón **New pull request**
+
+![Image](doc/assets/contributing/pull_request/10.jpg)
+
+Luego, (1) Selecciona el repositorio al que se va a hacer el pull request, en este caso seleccionaras tu repositorio, es decir aquel que comience con tu nombre de usuario.
+ (2) Después, debes seleccionar la rama que quieres actualizar.
+ (3) elige el repositorio original, es decir, el que comienza con el nombre del otro usuario.
+ (4) y escoge la rama desde donde quieres actualizar tu repositorio; es recomendable que la rama del paso (2) y del paso (4) sean las misma.
+
+Y presiona el botón **Create pull request**
+
+Nota: si al momento de seleccionar la rama en el paso (2) desapare la opción de elegir el repositorio del paso (3), haz click donde dice **compare across forks**.
+
+![Image](doc/assets/contributing/pull_request/14.jpg)
+
+Aquí también, debes agregar un título a tú pull request, y opcionalmente puedes añadir una descripción más detallada; Luego presiona el botón **Create pull request**
+
+![Image](doc/assets/contributing/pull_request/12.jpg)
+
+Lo anterior, creará una entrada en la sección de pull request de tu fork, buscala y abrela.
+
+![Image](doc/assets/contributing/pull_request/15.jpg)
+
+Ahora, sólo hace falta hacer el merge; Presiona el botón **Merge pull request**, y luego **Confirm merge**.
+
+:tada: ¡Felicidades! si todo está bien ya tines sincronizado tu fork con el repositorio original :tada:
+
+![Image](doc/assets/contributing/pull_request/16.jpg)
+
 <a name="sincronizando-localmente"/>
 
 ### Sincronizando los archivos en tu computador
+
+Abre una consola de Git en la carpeta principal del repositorio en tu computador. 
+Luego, cambiate a la rama que quieres sincronizar (para este caso se usara la rama **develop**), 
+para ello escribe lo siguiente:
+
+`git checkout develop`
+
+Posteriormente, actualizamos la rama de la siguiente forma: 
+
+`git pull`
+
+Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la rama en cuestión.
+
+<a name="antes-de-hacer-otro-pull-request"/>
+
+### Antes de hacer otro pull request
+
+- Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git: 
+
+`git checkout develop`
+
+- Si [actualizaste tu fork](#sincronizando-tu-fork), también es
+ recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
+
+- Si lo deseas, puedes borrar la rama donde trabajaste anteriormente, de la forma siguiente:
+
+`git branch -D branch_name`
+
+- Opcionalmente, puedes borrar la rama en el fork, escribiendo: 
+
+`git push --delete origin branch_name`
+
+- A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
+ nuevo pull request, especificamente desde [aquí](#nuevo-pull)
 
