@@ -185,9 +185,9 @@ A continuación, pulsa el botón **new pull request**
 
 ![Image](doc/assets/contributing/pull_request/10.jpg)
 
-(1) Selecciona el repositorio el repositorio a hacer el pull request,
+(1) Selecciona el repositorio al que hacer el pull request(comienza con el nombre del otro usuario),
  (2) seguido de la rama a la que quieras hacer el pull request (para este repositorio siempre debes hacer pull request contra la rama develop);
- (3) elige tu repositorio, al que previamente hiciste fork,
+ (3) elige tu repositorio, al que previamente hiciste fork (comienza con tu nombre de usuario),
  (4) y escoge la rama con la que quieres añadir cambios al repositorios principal, es decir, aquella que hiciste push anterioermente.
   
 Luego, presiona el botón **create pull request**
@@ -263,6 +263,39 @@ También es recomendable que borres la rama de tus archivos en Github, luego hac
 <a name="sincronizando-tu-fork"/>
 
 ### Sincronizando tu fork
+
+Sincronizar un fork con el repositorio original, es similar a hacer un pull request. Primero, debes ir al fork en Github y buscar la opción pull request.
+
+![Image](doc/assets/contributing/pull_request/09.jpg)
+
+de igual forma, debes presionar el botón **New pull request**
+
+![Image](doc/assets/contributing/pull_request/10.jpg)
+
+Luego, (1) Selecciona el repositorio al que se va a hacer el pull request, en este caso seleccionaras tu repositorio, es decir aquel que comience con tu nombre de usuario.
+ (2) Después, debes seleccionar la rama que quieres actualizar.
+ (3) elige el repositorio original, es decir, el que comienza con el nombre del otro usuario.
+ (4) y escoge la rama desde donde quieres actualizar tu repositorio; es recomendable que la rama del paso (2) y del paso (4) sean las misma.
+
+Y presiona el botón **Create pull request**
+
+Nota: si al momento de seleccionar la rama en el paso (2) desapare la opción de elegir el repositorio del paso (3), haz click donde dice **compare across forks**.
+
+![Image](doc/assets/contributing/pull_request/14.jpg)
+
+Aquí también, debes agregar un título a tú pull request, y opcionalmente puedes añadir una descripción más detallada; Luego presiona el botón **Create pull request**
+
+![Image](doc/assets/contributing/pull_request/12.jpg)
+
+Lo anterior, creará una entrada en la sección de pull request de tu fork, buscala y abrela.
+
+![Image](doc/assets/contributing/pull_request/15.jpg)
+
+Ahora, sólo hace falta hacer el merge; Presiona el botón **Merge pull request**, y luego **Confirm merge**.
+
+:tada: ¡Felicidades! si todo está bien ya tines sincronizado tu fork con el repositorio original :tada:
+
+![Image](doc/assets/contributing/pull_request/16.jpg)
 
 <a name="sincronizando-localmente"/>
 
