@@ -1,3 +1,5 @@
+
+
 # Cómo contribuir al H-ART-cktober 2020
 
 - [Restricciones](#restricciones)
@@ -132,6 +134,11 @@ donde `mi_correo@dominio.com` es la dirección de correo eléctronico que usaste
 
 `git -config --local user.name "Nombre y Apellido"`
 
+**Nota: los pasos realizados hasta este punto, solo deben hacerse una vez.
+ Todo lo que sigue a partir de aquí, se debe hacer por cada pull request que hagas**
+
+<a name="nuevo-pull"/>
+
 Cambiate a la rama develop, escribiendo lo siguiente:
 
 `git checkout develop`
@@ -201,13 +208,57 @@ Debes agregar un título a tú pull request, y opcionalmente puedes añadir una 
 <a name="recomendaciones-adicionales"/>
 
 # Recomendaciones adicionales
-	- [Creando develop-2](#creando-develop-2)
-	- [Sincronizando tu fork](#sincronizando-tu-fork)
-	- [Sincronizando los archivos en tu computador]
+
+Si tienes alguna duda extra, puedes crear un [Issue](https://github.com/kevinesaa/H-ART-cktober-2020/issues) preguntando cualquier duda que tengas.
+
+- [Creando develop_2](#creando-develop-2)
+- [Sincronizando tu fork](#sincronizando-tu-fork)
+- [Sincronizando los archivos en tu computador](sincronizando-los-archivos-locales)
+- [Antes de hacer otro pull request](#antes-de-hacer-otro-pull-request)
 
 <a name="creando-develop-2"/>
 
-### Creando develop-2
+### Creando develop_2
+
+La rama develop_2, es totalmente opcional y sirve para puedas tener todos
+ tus creaciones en una única rama, mientras esperas a que tu pull request
+ sea integrado al repositorio principal, y luego sincronizar tu fork y el repositorio en tu computador.
+ 
+Abre una consola de Git en la carpeta principal de repositorio en tu computador. 
+Luego, cambiate a la rama **develop** escribiendo lo siguiente:
+
+`git checkout develop`
+
+Ahora crea la rama *develop_2*, para ello escribe lo siguiente:
+
+`git branch develop_2`
+
+Para añadir los cambios de otra rama a la rama develop_2, primero debes cambiarte a la misma escribiendo:
+
+`git checkout develop_2`
+
+Y añadimos los cambios de la otra rama mediante un **merge**, de la siguiente forma:
+
+`git merge branch_name`
+
+Todos estos pasos puedes hacerlos después de cada pull request, para mantener todos tus archivos en una única rama.
+Además, después de cada *merge* es recomendable borrar la rama que se ha integrado; para ello hacemos lo siguiente:
+
+`git branch -D branch_name`
+
+note que la bandera `-D` debe ser escrita en mayúscula.
+
+Si lo desea, también puede añadir la rama *develop_2* a su fork en Github, escribiendo un push de la forma siguiente:
+
+`git push origin develop_2`
+
+Recuerda que para hacer un push, debes estar en la consola de Git con la
+ rama que quieres actualizar en Github; asegurate de ello
+ haciendo `git checkout develop_2` antes.
+
+También es recomendable que borres la rama de tus archivos en Github, luego hacer el pull request, para ello puedes escribir lo siguiente: 
+
+`git push --delete origin branch_name`
 
 <a name="sincronizando-tu-fork"/>
 
@@ -216,4 +267,8 @@ Debes agregar un título a tú pull request, y opcionalmente puedes añadir una 
 <a name="sincronizando-localmente"/>
 
 ### Sincronizando los archivos en tu computador
+
+<a name="antes-de-hacer-otro-pull-request"/>
+
+### Antes de hacer otro pull request
 
