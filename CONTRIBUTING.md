@@ -224,7 +224,7 @@ La rama develop_2, es totalmente opcional y sirve para puedas tener todos
  tus creaciones en una única rama, mientras esperas a que tu pull request
  sea integrado al repositorio principal, y luego sincronizar tu fork y el repositorio en tu computador.
  
-Abre una consola de Git en la carpeta principal de repositorio en tu computador. 
+Abre una consola de Git en la carpeta principal del repositorio en tu computador. 
 Luego, cambiate a la rama **develop** escribiendo lo siguiente:
 
 `git checkout develop`
@@ -301,7 +301,37 @@ Ahora, sólo hace falta hacer el merge; Presiona el botón **Merge pull request*
 
 ### Sincronizando los archivos en tu computador
 
+Abre una consola de Git en la carpeta principal del repositorio en tu computador. 
+Luego, cambiate a la rama que quieres sincronizar (para este caso se usara la rama **develop**), 
+para ello escribe lo siguiente:
+
+`git checkout develop`
+
+Posteriormente, actualizamos la rama de la siguiente forma: 
+
+`git pull`
+
+Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la rama en cuestión.
+
 <a name="antes-de-hacer-otro-pull-request"/>
 
 ### Antes de hacer otro pull request
+
+- Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git: 
+
+`git checkout develop`
+
+- Si [actualizaste tu fork](#sincronizando-tu-fork), también es
+ recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
+
+- Si lo deseas, puedes borrar la rama donde trabajaste anteriormente, de la forma siguiente:
+
+`git branch -D branch_name`
+
+- Opcionalmente, puedes borrar la rama en el fork, escribiendo: 
+
+`git push --delete origin branch_name`
+
+- A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
+ nuevo pull request, especificamente desde [aquí](#nuevo-pull)
 
