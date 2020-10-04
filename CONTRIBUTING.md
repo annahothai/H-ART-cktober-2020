@@ -317,20 +317,20 @@ Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la ram
 
 ### Antes de hacer otro pull request
 
-- Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git:
+Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git:
 
-`git checkout develop` 
+`git checkout develop` .
 
-- Si [actualizaste tu fork](#sincronizando-tu-fork), también es recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
+Si [actualizaste tu fork](#sincronizando-tu-fork), también es recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
 
-- Si lo deseas, puedes borrar la rama donde trabajaste anteriormente, de la forma siguiente:
+Si lo deseas, puedes borrar la rama donde trabajaste anteriormente, de la forma siguiente:
 
 `git branch -D branch_name`
 
-- Opcionalmente, puedes borrar la rama en el fork, escribiendo: 
+Opcionalmente, puedes borrar la rama en el fork, escribiendo: 
 
 `git push --delete origin branch_name`
 
-- A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
+A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
  nuevo pull request, específicamente desde [aquí](#nuevo-pull)
 
