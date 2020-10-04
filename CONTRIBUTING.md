@@ -319,10 +319,9 @@ Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la ram
 
 - Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git:
 
-`git checkout develop`
+`git checkout develop` 
 
-- Si [actualizaste tu fork](#sincronizando-tu-fork), también es
- recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
+- Si [actualizaste tu fork](#sincronizando-tu-fork), también es recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
 
 - Si lo deseas, puedes borrar la rama donde trabajaste anteriormente, de la forma siguiente:
 
