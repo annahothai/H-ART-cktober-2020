@@ -333,4 +333,3 @@ Opcionalmente, puedes borrar la rama en el fork, escribiendo:
 
 A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
  nuevo pull request, específicamente desde [aquí](#nuevo-pull)
-
