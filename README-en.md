@@ -1,4 +1,4 @@
-[English](README-en.md)
+[Español](README.md)
 
 # H-ART-cktober 2020
 
@@ -50,7 +50,7 @@ A lo largo del mes, se revelará una palabra clave de forma diaria, que en combi
 
 ### ¿Cómo contribuir en este repositorio?
 
-¿Quieres unirte a la aventura? ¡Excelente! mira los detalles sobre los [lineamientos](CONTRIBUTING.md) a seguir para poder hacer pull request en este repositorio.
+¿Quieres unirte a la aventura? ¡Excelente! mira los detalles sobre los [lineamientos](CONTRIBUTING-en.md) a seguir para poder hacer pull request en este repositorio.
 
 <a name="licencia"/>
 

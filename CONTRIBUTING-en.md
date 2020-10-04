@@ -1,4 +1,4 @@
-[English](CONTRIBUTING-en.md)
+[Español](CONTRIBUTING.md)
 
 # Cómo contribuir al H-ART-cktober 2020
 
