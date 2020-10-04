@@ -317,7 +317,7 @@ Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la ram
 
 ### Antes de hacer otro pull request
 
-- Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git: 
+- Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git:
 
 `git checkout develop`
 
@@ -333,5 +333,5 @@ Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la ram
 `git push --delete origin branch_name`
 
 - A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
- nuevo pull request, especificamente desde [aquí](#nuevo-pull)
+ nuevo pull request, específicamente desde [aquí](#nuevo-pull)
 
