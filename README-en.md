@@ -43,7 +43,7 @@ Throughout the month, a keyword will be revealed daily which, in combination wit
 | Sundary | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 |---------|---------|---------|---------|---------|---------|---------|
 | | | | | <sup>01</sup> Monolith | <sup>02</sup> Number | <sup>03</sup> Life |
-| <sup>04</sup> Elf | <sup>05</sup> - | <sup>06</sup> - | <sup>07</sup> - | <sup>08</sup> - | <sup>09</sup> - | <sup>10</sup> - |
+| <sup>04</sup> Elf | <sup>05</sup> Hackerman | <sup>06</sup> - | <sup>07</sup> - | <sup>08</sup> - | <sup>09</sup> - | <sup>10</sup> - |
 | <sup>11</sup> - | <sup>12</sup> - | <sup>13</sup> - | <sup>14</sup> - | <sup>15</sup> - | <sup>16</sup> - | <sup>17</sup> - |
 | <sup>18</sup> - | <sup>19</sup> - | <sup>20</sup> - | <sup>21</sup> - | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
 | <sup>25</sup> - | <sup>26</sup> - | <sup>27</sup> - | <sup>28</sup> - | <sup>29</sup> - | <sup>30</sup> - | <sup>31</sup> - |
