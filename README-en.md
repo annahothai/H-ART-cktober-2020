@@ -2,45 +2,45 @@
 
 # H-ART-cktober 2020
 
-Un repositorio para artistas que que quieran particiapar en el Hacktoberfest. Todo tipo de arte es bienvenido, música, modelos 3D, escritura, ilustración, etc.
+A repository for artists that wish to participate in Hacktoberfest. All kinds of art are welcome; music, 3D models, writing, ilustrations, etc.
 
-- [¿Qué es H-ART-cktober?](#que-es-h-art-cktober)
-- [¿Qué es Hacktoberfest?](#que-es-hacktoberfest)
-- [El meta-tema](#meta-tema)
-- [Calendario](#calendario)
-- [¿Cómo contribuir en este repositorio?](#como-contribuir-en-este-repositorio)
-- [Licencia](#licencia)
+- [What is H-ART-cktober?](#what-is-h-art-cktober)
+- [What is Hacktoberfest?](#what-is-hacktoberfest)
+- [The meta-theme](#meta-theme)
+- [Calendar](#calendar)
+- [How to contribute to this repository?](#how-to-contribute-to-this-repository)
+- [License](#license)
 
-<a name="que-es-h-art-cktober"/>
+<a name="what-is-h-art-cktober"/>
 
-### ¿Qué es H-ART-cktober? 
-Un repositorio hecho para abrir un espacio en el Hacktoberfest 2020 para aquellas otras áreas de conocimiento diferentes a la programación, que suelen involucrarse y colaborar conjunto al desarrollo de software de código libre, como diseñadores gráficos, escritores, ilustradores, modeladores 3D, músicos, entre otros.
+### What is H-ART-cktober? 
+A repository created to open a space in Hacktoberfest 2020 for those other areas of knowledge other than programming, that usually are involved in and colaborate with open source software development, such as graphic designers, writers, illustrators, 3D modelers, musicians, among others.
 
-Para mantener la consistencia del repositorio, se tendrá una temática general del mes [(El meta-tema)](#meta-tema), que se invita a combinar con una temática diaria [(calendario)](#calendario); Cada combinación de temas es de libre interpretación.
+To maintain consistency in the repository, there will be a general theme for the month [(The meta-theme)](#meta-theme), which can be combined with a daily theme [(calendar)](#calendario). Each combination of themes is open to interpretation.
 
-<a name="que-es-hacktoberfest"/>
+<a name="what-is-hacktoberfest"/>
 
-### ¿Qué es Hacktoberfest?
+### What is Hacktoberfest?
 
-Hacktoberfest, es una iniciativa de DigitalOcean con una duración de un mes (entre el 1 y el 31 de octubre), que consiste en promover las contribuciones (pull request) a proyectos de software open source. A cambio, con un mínimo de cuatro (4) pull request, los organizadores te hacen llegar una franela, sin importar en qué parte del mundo te encuentres.
+Hacktoberfest is a month-long initiative by DigitalOcean (from October 1st to October 31st) that consists on promoting contributions (pull requests) to open source software projects. In exchange, with a minimun of four (4) pull requests, the organizers send you a T-Shirt wherever you are in the world.
 
-Para más información, revisa su [página web](https://hacktoberfest.digitalocean.com/).
+For more information, check out their [web page](https://hacktoberfest.digitalocean.com/).
 
-<a name="meta-tema"/>
+<a name="meta-theme"/>
 
-### El meta-tema
+### The meta-theme
 
-El meta-tema de este repositorio es **cyber-punk**
+The meta-theme of this repository is **cyber-punk**
 
-El meta-tema, además de ayudar a mantener consistencia sobre lo que otros van a encontrar en este repositorio, también funciona como punto de inicio sobre que crear; El meta-tema en combinación con la temática del día son de libre interpretación.
+The meta-theme, in addition to helping maintain the consistency of what others will find inside the repository, also functions as a starting point on what to create; the meta-theme combined with the daily theme is open to interpretation.
 
-<a name="calendario"/>
+<a name="calendar"/>
 
-### Calendario
+### Calendar
 
-A lo largo del mes, se revelará una palabra clave de forma diaria, que en combinación con el meta-tema, debes usar como base de inspiración para empezar tu creación nueva del día. Recuerda, tanto el meta-tema como la palabra diaria son de libre interpretación.
+Throughout the month, a keyword will be revealed daily which, in combination with the meta-theme, you must use as inspiration to start your new creation of the day. Remember, both the meta-theme and daily keyword are open to interpretation.
 
-| Domingo | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado |
+| Sundary | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 |---------|---------|---------|---------|---------|---------|---------|
 | | | | | <sup>01</sup> Monolith | <sup>02</sup> Number | <sup>03</sup> Life |
 | <sup>04</sup> Elf | <sup>05</sup> - | <sup>06</sup> - | <sup>07</sup> - | <sup>08</sup> - | <sup>09</sup> - | <sup>10</sup> - |
@@ -48,11 +48,13 @@ A lo largo del mes, se revelará una palabra clave de forma diaria, que en combi
 | <sup>18</sup> - | <sup>19</sup> - | <sup>20</sup> - | <sup>21</sup> - | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
 | <sup>25</sup> - | <sup>26</sup> - | <sup>27</sup> - | <sup>28</sup> - | <sup>29</sup> - | <sup>30</sup> - | <sup>31</sup> - |
 
-### ¿Cómo contribuir en este repositorio?
+<a name="how-to-contribute-to-this-repository"/>
 
-¿Quieres unirte a la aventura? ¡Excelente! mira los detalles sobre los [lineamientos](CONTRIBUTING-en.md) a seguir para poder hacer pull request en este repositorio.
+### How to contribute to this repository?
 
-<a name="licencia"/>
+Do you want to join the adventure? Excellent! Take a look at the [guidelines](CONTRIBUTING-en.md) to follow to be able to make a pull request to this repository.
 
-### Licencia
-Todos los archivos de este repositorio están bajo la licencia Creative Commons Zero v1.0 Universal (CC0). Ver más detalles de la licencia [aquí](LICENSE).
+<a name="license"/>
+
+### Licence
+All files in this repository are licensed under the Creative Commons Zero v1.0 Universal (CC0) license. See more license details [here](LICENSE).

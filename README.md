@@ -48,6 +48,8 @@ A lo largo del mes, se revelará una palabra clave de forma diaria, que en combi
 | <sup>18</sup> - | <sup>19</sup> - | <sup>20</sup> - | <sup>21</sup> - | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
 | <sup>25</sup> - | <sup>26</sup> - | <sup>27</sup> - | <sup>28</sup> - | <sup>29</sup> - | <sup>30</sup> - | <sup>31</sup> - |
 
+<a name="como-contribuir-en-este-repositorio"/>
+
 ### ¿Cómo contribuir en este repositorio?
 
 ¿Quieres unirte a la aventura? ¡Excelente! mira los detalles sobre los [lineamientos](CONTRIBUTING.md) a seguir para poder hacer pull request en este repositorio.
