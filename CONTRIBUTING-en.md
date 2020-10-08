@@ -1,335 +1,335 @@
 [Español](CONTRIBUTING.md)
 
-# Cómo contribuir al H-ART-cktober 2020
+# How to contribute to 2020 H-ART-cktober
 
-- [Restricciones](#restricciones)
-- [Registrate en Github](#registrate-en-github)
-- [Registrate en el Hacktoberfest](#registrate-en-el-hacktoberfest)
-- [Software necesario](#software)
-- [Enviando tu arte](#enviando-tu-arte)
-- [Recomendaciones adicionales](#recomendaciones-adicionales)
+- [Restrictions](#restrictions)
+- [Sign up to GitHub](#sign-up-to-github)
+- [Sign up to Hacktoberfest](#sign-up-to-hacktoberfest)
+- [Required software](#software)
+- [Send your art](#send-your-art)
+- [Additional recommendations](#additional-recommendations)
 
-<a name="Restricciones"/>
+<a name="restrictions"/>
 
-### Restricciones 
+### Restrictions 
 
-Cada archivo que añadas debe pesar máximo 50 MB.
+Each added file must weight 50 MB maximum.
 
-Todo el material adicional que uses, como tipografía, imágenes u otro, debe tener licencia libre de derechos de autor.
+Every resource used like fonts, images and other, must have a copyright free license.
 
-Añade tanto el resultado final como los archivos editables, así como cualquier otro material adicional para su reproducción, como tipografías u otro.
+Add both the final result and the source files, as well as any other additional resource for it's reproduction, like fonts or others.
 
-<a name="registrate-en-github"/>
+<a name="sign-up-to-github"/>
 
-### Registrate en Github 
+### Sign up to GitHub
 
-Para poder hacer pull request es necesario tener una cuenta en Github, para ello ve la página de [registro](https://github.com/join) y sigue los pasos.
+To be able to create a pull request, is required to have an account on Github, to do so, go ahead to it's [sign up](http://github.com/join) page, and follow the steps.
 
-**1.- Ingresas tus datos básicos.**
+**1.- Enter your basic information**
 
 ![Image](doc/assets/contributing/github_account/01.jpg)
 
-**2.- Verifica que no eres un robot :robot:.**
+**2.- Check that you're not a robot :robot:.**
 
 ![Image](doc/assets/contributing/github_account/02.jpg)
 
-**3.- Presiona el botón de crear cuenta.**
+**3.- Press the "Sign Up" button.**
 
 ![Image](doc/assets/contributing/github_account/03.jpg)
 
-**4.- Ajustas las configuraciones básicas.**
+**4.- Setup the basic settings.**
 
 ![Image](doc/assets/contributing/github_account/04.jpg)
 
 ![Image](doc/assets/contributing/github_account/05.jpg)
 
-**5.- Revisa tu correo electrónico, y haz click el link que te llegó para verificar tu cuenta.**
+**5.- Check out your email, then click on the link that you've received on it to validate your account.**
 
 ![Image](doc/assets/contributing/github_account/06.jpg)
 
 ![Image](doc/assets/contributing/github_account/07.jpg)
 
-**6.- ¡Felicidades, ya tienes cuenta en Github! :tada:**
+**6.- ¡Congratulations, you have a Github account! :tada:**
 
-<a name="registrate-en-el-hacktoberfest"/>
+<a name="sign-up-to-hacktoberfest"/>
 
-### Registrate en el Hacktoberfest 
+### Sign up to Hacktoberfest 
 
-Para que tus pull request sean tomados en cuenta para el Hacktoberfest, y poder obtener tu franela, debes estar registrado en su [web](https://hacktoberfest.digitalocean.com/); Sigue los pasos para completar tu registro.
+In order for your pull requests to be taken into account for Hacktoberfest, and get your t-shirt, you must be registered in its [web](https://hacktoberfest.digitalocean.com/); Follow these steps to finish your registration.
 
-**1.- Presiona en el botón Start Hacking**
+**1.- Press the Start Hacking button**
 
 ![Image](doc/assets/contributing/hacktoberfest_register/01.png)
 
-**2.- Inicia sesión en con tu cuenta de Github**
+**2.- Sign in with your Github account**
 
 ![Image](doc/assets/contributing/hacktoberfest_register/02.png)
 
 ![Image](doc/assets/contributing/hacktoberfest_register/03.png)
 
-**3.- Completa el Formulario del Hacktoberfest**
+**3.- Fill the Hacktoberfest form**
 
 ![Image](doc/assets/contributing/hacktoberfest_register/04.png)
 
-**4.- ¡Felicidades, ya estás registrado en el Hacktoberfest! ¡Que comiencen los pull request! :tada:**
+**4.- ¡Congratulations, you're registered for the Hacktoberfest!! ¡Let the pull requests begin! :tada:**
 
 ![Image](doc/assets/contributing/hacktoberfest_register/05.jpg)
 
 <a name="software"/>
 
-### Software necesario 
+### Required software
 
-Para poder hacer un pull request, es necesario que tengas instalado en tu computadora [Git](https://git-scm.com/).
+In order to create a pull request, is required for you to have [Git](https://git-scm.com/) installed in your computer.
 
-Después de instalar Git, debes instalar [Git LFS](https://git-lfs.github.com/). 
+After installing Git, you've got to install [Git LFS](https://git-lfs.github.com/).
 
-Opcionalmente, puedes instalar algún cliente gráfico de Git, como [Source Tree](https://www.sourcetreeapp.com/), [Git Kraken](https://www.gitkraken.com/), [GitHub Desktop](https://desktop.github.com/) o algún otro de tu preferencia.
+Optionally, you can install some GUI for Git, such as [Source Tree](https://www.sourcetreeapp.com/), [Git Kraken](https://www.gitkraken.com/), [GitHub Desktop](https://desktop.github.com/).
 
-<a name="enviando-tu-arte"/>
+<a name="sending-your-art"/>
 
-### Enviando tu arte 
+### Sending your art
 
-**Siempre deben hacer tu pull request contra la rama develop, nunca contra la rama master.**
+**You'll always have to create your pull request against the develop branch, not the master one.**
 
-Empiecen haciendo un fork de este repositorio.
+Start forking this repository.
 
 ![Image](doc/assets/contributing/pull_request/00.jpg)
 
 ![Image](doc/assets/contributing/pull_request/01.jpg)
 
-Para saber si estás viendo el fork o el repositorio original, fijate en
- la esquina superior izquierda, el título del fork comienza con tu nombre
- de usuario, seguido del nombre del repositorio; además incluye
- el texto **forked from**, con el nombre de usuario y repositorio original.
+In order to know if you're looking at the fork you've just done, or the original
+ repository, you can take a look at the top-left corner of your screen. The forked
+ repository title starts with your username, followed by the repository name; it also includes
+ the text **forked from**, with the original repository and user name.
  
 ![Image](doc/assets/contributing/pull_request/02.jpg)
 
-A continuación, haz click en el botón verde que dice **code** y copia la URL de la opción HTTPS.
+Then, click the green **code** button, and copy the HTTPS URL from the textblock.
 
 ![Image](doc/assets/contributing/pull_request/03.jpg)
 
-Crea una carpeta nueva en tu computador, y abre Git en ella.
+Make a new folder on your computer, and open Git on it.
 
 ![Image](doc/assets/contributing/pull_request/04.jpg)
 
 ![Image](doc/assets/contributing/pull_request/05.jpg)
 
-Lo siguiente es clonar el fork del repositorio en la carpeta que creaste. 
- Para ello, en la consola de Git escribe lo siguiente:
+The next step is to clone the fork into the folder you've just created.
+To do so, write the following command in the git console:
 
 `git clone fork_url` 
 
-donde `fork_url` es la URL que copiaste antes; Y presiona enter.
+where `fork_url` goes the previous copied URL; Then press Enter.
 
-Abre la consola de Git en la carpeta del repositorio que clonaste.
+Open the git's console inside the just cloned repository.
 
 ![Image](doc/assets/contributing/pull_request/06.jpg)
 
-Configura Git con tus datos básicos. Primero añade tu dirección de correo eléctronico, escribiendo los siguiente:
+Configure Git with your basic information. First, add your email address, typing the following:
 
-`git -config --local user.email "mi_correo@dominio.com"` 
+`git -config --local user.email "my_email@domain.com"` 
 
-donde `mi_correo@dominio.com` es la dirección de correo eléctronico que usaste para registrarte en Github.
- Luego añade tu nombre escribiendo lo siguiente:
+where `my_domain@domain.com` is the email address you used to sign up to Github
+ Then, add your name by typing the following:
 
-`git -config --local user.name "Nombre y Apellido"`
+`git -config --local user.name "Name and surname"`
 
-**Nota: los pasos realizados hasta este punto, solo deben hacerse una vez.
- Todo lo que sigue a partir de aquí, se debe hacer por cada pull request que hagas**
+**Note: All the previous steps, must only be realized once.
+ Everything from now, must be done for each pull request you make**
 
-<a name="nuevo-pull"/>
+<a name="new-pr"/>
 
-Cambiate a la rama develop, escribiendo lo siguiente:
+Switch to the develop branch, by typing the command:
 
 `git checkout develop`
 
-Crea una nueva rama desde desde la rama develop. Nota: para efectos de ejemplo se usara el nombre *branch_name*.
+Create a new branch starting from the develop one. Note: for this example we'll use the name *branch_name*.
 
 `git branch branch_name`
 
-Crea una carpeta nueva con tu nombre de usuario en Github, dentro de la carpeta con el día al que corresponde tu contribución, dentro de la carpeta art. Nota: para efectos de ejemplo se usara el nombre *user_name*.
+Inside the art folder, and inside the one with the day corresponding to the day when you make your contribution, create a new folder with your Github username.
+Note: for this example we'll use the username *user_name*.
 
 ![Image](doc/assets/contributing/pull_request/07.png)
 
-Guarda los archivos correspondientes en la nueva carpeta.
-Es recomendable que incluir un archivo README.md, donde escribas una pequeña descripción, que programa usar para abrir los editable, así como cualquier otra información que creas pertinente.
+Save the corresponding files into the new folder.
+It's recommended to include a README.md file, where you can write a brief description, which program to use to open the resources, and any other information that you think it's important.
 
-Una vez finalices, debes indicarle a Git que haga track de tus archivos, guardar los cambios en Git, y actualizar los cambios en Github.
+Once you finish, you have to tell Git to track your files, to save your changes into the Git index, and update those changes in Github.
 
-Para indicarle a Git que haga track de tus archivos, abre Git en la carpeta donde están los mismo y escribe lo siguiente: 
+To tell Git to track your files, open Git inside the folder where they're, and type the following command:
 
 `git add .` 
 
-y pulsar enter.
+then press Enter.
 
-Para Guardar los cambios en Git, debes hacer un commit, para ello escribe lo siguiente:
+To save your changes into the Git index, you have to create a commit, to do so, write the following command:
 
-`git commit -m "mensaje"` 
+`git commit -m "message"` 
 
-donde `mensaje` es una pequeña descripción de tu aporte.
+where `message` goes a brief description of your contribution.
 
-Para actualizar los cambios en Github, sólo hace falte hacer un push, para ello escribe lo siguiente:
+To update the changes in Github, you just have to push them, to do so, type the following command:
 
 `git push origin branch_name` 
 
-Ahora sólo hace falta que hagas tu pull request al repositorio original.
-Ve al fork del repositorio en Github, allí, busca y selecciona la rama que hiciste push anteriormente.
+Now, you just have to create a pull request to the original repository.
+
+Go to the forked repository on Github, there, look for the branch you just pushed to and select it.
 
 ![Image](doc/assets/contributing/pull_request/08.jpg)
 
-Luego, selecciona la opción **Pull requests**
+Then, select the **Pull requests** option
 
 ![Image](doc/assets/contributing/pull_request/09.jpg)
 
-A continuación, pulsa el botón **new pull request**
+Them, press the **new pull request** button
 
 ![Image](doc/assets/contributing/pull_request/10.jpg)
 
-(1) Selecciona el repositorio al que hacer el pull request(comienza con el nombre del otro usuario),
- (2) seguido de la rama a la que quieras hacer el pull request (para este repositorio siempre debes hacer pull request contra la rama develop);
- (3) elige tu repositorio, al que previamente hiciste fork (comienza con tu nombre de usuario),
- (4) y escoge la rama con la que quieres añadir cambios al repositorios principal, es decir, aquella que hiciste push anterioermente.
+(1) Select the repository you want to create the pull request against (it beigns with the other's username),
+ (2) followed by the branch you want to pull request agains (for this repository, you must always have to create pull requests against the develop branch);
+ (3) select your repository, the one which starts with your username,
+ (4) and select the branch you want to send changes to the original one, namely, the one which you pushed previously
   
-Luego, presiona el botón **create pull request**
+Then, press the **create pull request** button
 
 ![Image](doc/assets/contributing/pull_request/11.jpg)
 
-Debes agregar un título a tú pull request, y opcionalmente puedes añadir una descripción más detallada; Luego presiona el botón **Create pull request**
+You have to add a title for your pull request, and optionally you can add a more detailed description; Then press the **Create pull request** button
 
 ![Image](doc/assets/contributing/pull_request/12.jpg)
 
-:tada: Si llegaste hasta aqui, es por que ya hiciste tu primer pull request ¡Felicidades! :tada:
+:tada: If you get to here, you've just created your first pull request, congratulations! :tada:
 
 ![Image](doc/assets/contributing/pull_request/13.jpg)
 
-¿Quieren saber más acercade como se hace un Pull Request? Visita https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+Do you want to know more about how a Pull Request is made? Visit https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
 
-<a name="recomendaciones-adicionales"/>
+<a name="additional-recommendations"/>
 
-# Recomendaciones adicionales
+# Additional recommendations
 
-Si tienes alguna duda extra, puedes crear un [Issue](https://github.com/kevinesaa/H-ART-cktober-2020/issues) preguntando cualquier duda que tengas.
+If you have any other questions, you can create an [Issue](https://github.com/kevinesaa/H-ART-cktober-2020/issues) asking for whatever you want.
 
-- [Creando develop_2](#creando-develop-2)
-- [Sincronizando tu fork](#sincronizando-tu-fork)
-- [Sincronizando los archivos en tu computador](sincronizando-los-archivos-locales)
-- [Antes de hacer otro pull request](#antes-de-hacer-otro-pull-request)
+- [Creating develop_2](#creating-develop-2)
+- [Syncing your fork](#syncing-your-fork)
+- [Syncing the files in your computer](#syincing-local-files)
+- [Before creating another pull request](#before-creating-another-pull-request)
 
-<a name="creando-develop-2"/>
+<a name="creating-develop-2"/>
 
-### Creando develop_2
+### Creating develop_2
 
-La rama develop_2, es totalmente opcional y sirve para puedas tener todos
- tus creaciones en una única rama, mientras esperas a que tu pull request
- sea integrado al repositorio principal, y luego sincronizar tu fork y el repositorio en tu computador.
- 
-Abre una consola de Git en la carpeta principal del repositorio en tu computador. 
-Luego, cambiate a la rama **develop** escribiendo lo siguiente:
+The develop_2 branch is totally optional, and is intended to have all of your
+ creations into a single branch, while you wait for your pull request to be
+ merged into the main repository, syncing your fork and the local repository.
+
+Open a git console inside of the repository main folder.
+Then, switch to the **develop** branch by typing:
 
 `git checkout develop`
 
-Ahora crea la rama *develop_2*, para ello escribe lo siguiente:
+Now, create the *develop_2* branch by typing:
 
-`git branch develop_2`
+`git branch -b develop_2`
 
-Para añadir los cambios de otra rama a la rama develop_2, primero debes cambiarte a la misma escribiendo:
+In order to add a branch changes into the develop_2 branch, you have to switch to it by typing:
 
 `git checkout develop_2`
 
-Y añadimos los cambios de la otra rama mediante un **merge**, de la siguiente forma:
+Then, add the changes from the other branch by using a **merge**:
 
 `git merge branch_name`
 
-Todos estos pasos puedes hacerlos después de cada pull request, para mantener todos tus archivos en una única rama.
-Además, después de cada *merge* es recomendable borrar la rama que se ha integrado; para ello hacemos lo siguiente:
+You can go through all these steps after each pull request, to keep all your files on a single branch.
+After each *merge* is recommended to delete the merged branch as well; do so by typing:
 
 `git branch -D branch_name`
 
-note que la bandera `-D` debe ser escrita en mayúscula.
+see that the `-D` flag, must be written in CAPS.
 
-Si lo desea, también puede añadir la rama *develop_2* a su fork en Github, escribiendo un push de la forma siguiente:
+If you wish, you can add the *develop_2* branch to your Github's fork as well, by executing a push like:
 
 `git push origin develop_2`
 
-Recuerda que para hacer un push, debes estar en la consola de Git con la
- rama que quieres actualizar en Github; asegurate de ello
- haciendo `git checkout develop_2` antes.
+Consider that before pushing your changes, you have to be in the Git console, and on the branch you want
+to update on Github; to be sure, just run: `git checkout develop_2`
 
 También es recomendable que borres la rama de tus archivos en Github, luego hacer el pull request, para ello puedes escribir lo siguiente: 
 
 `git push --delete origin branch_name`
 
-<a name="sincronizando-tu-fork"/>
+<a name="syncing-your-fork"/>
 
-### Sincronizando tu fork
+### Syncing your fork
 
-Sincronizar un fork con el repositorio original, es similar a hacer un pull request. Primero, debes ir al fork en Github y buscar la opción pull request.
+Syncing your fork with the original repository, is simmilar to creating a pull request. First, you have to go to the fork on Github and look for the pull request option.
 
 ![Image](doc/assets/contributing/pull_request/09.jpg)
 
-de igual forma, debes presionar el botón **New pull request**
+Then, press the **New pull request** button
 
 ![Image](doc/assets/contributing/pull_request/10.jpg)
 
-Luego, (1) Selecciona el repositorio al que se va a hacer el pull request, en este caso seleccionaras tu repositorio, es decir aquel que comience con tu nombre de usuario.
- (2) Después, debes seleccionar la rama que quieres actualizar.
- (3) elige el repositorio original, es decir, el que comienza con el nombre del otro usuario.
- (4) y escoge la rama desde donde quieres actualizar tu repositorio; es recomendable que la rama del paso (2) y del paso (4) sean las misma.
+Then,
+ (1) Select the repository you want to pull request to, in this case, you'll select your own, the one that begins with your username.
+ (2) Then, you have to select the branch you want to update
+ (3) Select the original repository, the one that begins with the other user's username
+ (4) Then select the branch you want to update your repository; is recommended that the branch from the step (2) and (4) are the same one.
 
-Y presiona el botón **Create pull request**
+Then press the **Create pull request** button.
 
-Nota: si al momento de seleccionar la rama en el paso (2) desapare la opción de elegir el repositorio del paso (3), haz click donde dice **compare across forks**.
+Note: If when selecting the branch on the step (2), the repository (step 3) option dissappears, click the **compare across forks** button.
 
 ![Image](doc/assets/contributing/pull_request/14.jpg)
 
-Aquí también, debes agregar un título a tú pull request, y opcionalmente puedes añadir una descripción más detallada; Luego presiona el botón **Create pull request**
+Here, you have to set a title for your pull request, and optionally you can add a longer description; Then press the **Create pull request** button.
 
 ![Image](doc/assets/contributing/pull_request/12.jpg)
 
-Lo anterior, creará una entrada en la sección de pull request de tu fork, buscala y abrela.
+This will create an entry in the your repository's pull request section, look for it and open it.
 
 ![Image](doc/assets/contributing/pull_request/15.jpg)
 
-Ahora, sólo hace falta hacer el merge; Presiona el botón **Merge pull request**, y luego **Confirm merge**.
+Now, you just need to make a *merge*; Press the **Merge pull request** button, and then **Confirm merge**.
 
-:tada: ¡Felicidades! si todo está bien ya tines sincronizado tu fork con el repositorio original :tada:
+:tada: Congratulations! if everything went well, you have your fork and the original repository synced :tada:
 
 ![Image](doc/assets/contributing/pull_request/16.jpg)
 
-<a name="sincronizando-localmente"/>
+<a name="syncing-locally"/>
 
-### Sincronizando los archivos en tu computador
+### Syncing your local files
 
-Abre una consola de Git en la carpeta principal del repositorio en tu computador. 
-Luego, cambiate a la rama que quieres sincronizar (para este caso se usara la rama **develop**), 
-para ello escribe lo siguiente:
+Open a Git console on the repository main folder (on your computer).
+Then, switch to the branch you want to sync (in this case, we'll use the **develop** branch) by typing:
 
 `git checkout develop`
 
-Posteriormente, actualizamos la rama de la siguiente forma: 
+Then, we'll update the branch by typing:
 
 `git pull`
 
-Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la rama en cuestión.
+By doing this, we'll have this branch's files sync locally in our computer.
 
-<a name="antes-de-hacer-otro-pull-request"/>
+<a name="before-creating-another-pull-request"/>
 
-### Antes de hacer otro pull request
+### Before creating another pull request
 
-Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git:
+Check that you're on the **develop** branch before getting started. To do so you can type:
 
 `git checkout develop` .
 
-Si [actualizaste tu fork](#sincronizando-tu-fork), también es recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
+If you've [synced your fork](#syncing-your-fork), is remcommended to sync your local files as well by typing `git pull`.
 
-Si lo deseas, puedes borrar la rama donde trabajaste anteriormente, de la forma siguiente:
+If you wish, you can delete the branch you've been working with previously by runing:
 
 `git branch -D branch_name`
 
-Opcionalmente, puedes borrar la rama en el fork, escribiendo: 
+Optionally, you can delete the same branch, but in the fork:
 
 `git push --delete origin branch_name`
 
-A partir de aquí, sólo tienes que repetir algunos pasos para hacer un
- nuevo pull request, específicamente desde [aquí](#nuevo-pull)
+From now, you just have to repeat some steps to create a new pull request, specifically starting from [here](#nuevo-pr)
