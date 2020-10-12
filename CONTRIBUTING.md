@@ -6,7 +6,7 @@
 - [Registrate en Github](#registrate-en-github)
 - [Registrate en el Hacktoberfest](#registrate-en-el-hacktoberfest)
 - [Software necesario](#software)
-- [Enviando tu arte](#enviando-tu-arte)
+- [Enviando tu arteo, haciendo pull request en este repositorio](#enviando-tu-arte)
 - [Recomendaciones adicionales](#recomendaciones-adicionales)
 
 <a name="Restricciones"/>
@@ -87,11 +87,25 @@ Opcionalmente, puedes instalar algún cliente gráfico de Git, como [Source Tree
 
 <a name="enviando-tu-arte"/>
 
-### Enviando tu arte 
+### Enviando tu arte o, haciendo pull request en este repositorio
 
-**Siempre deben hacer tu pull request contra la rama develop, nunca contra la rama master.**
+El proceso de hacer un pull request se puede resumir en los siguientes pasos:
 
-Empiecen haciendo un fork de este repositorio.
+- Hacer un fork de del repositorio en Github.
+- Hacer un clone del fork en tu computador.
+- Configurar tus datos básicos en el clone.
+- Crear una rama desde la rama develop.
+- Añadir en la carpeta correspondiente, los archivos que quieres enviar.
+- Indicarle a git, cuales son los archivos que debe trackear.
+- Guardar los cambios en git mediante un commit.
+- Sincronizar el fork en Github con un push.
+- Y, hacer el pull request al repositorio original desde Github.
+
+A continuación, veremos a más a detalle como hacer cada uno de los pasos del proceso.
+
+**Nota importante: Siempre debes hacer tu pull request contra la rama develop, nunca contra la rama master.**
+
+Empiece haciendo un fork de este repositorio, para ello solo tienes que hacer click en el botón fork en la parte superior derecha.
 
 ![Image](doc/assets/contributing/pull_request/00.jpg)
 
@@ -152,9 +166,9 @@ Crea una carpeta nueva con tu nombre de usuario en Github, dentro de la carpeta 
 ![Image](doc/assets/contributing/pull_request/07.png)
 
 Guarda los archivos correspondientes en la nueva carpeta.
-Es recomendable que incluir un archivo README.md, donde escribas una pequeña descripción, que programa usar para abrir los editable, así como cualquier otra información que creas pertinente.
+Es recomendable incluir un archivo README.md, donde escribas una pequeña descripción, que programa usar para abrir los editable, así como cualquier otra información que creas pertinente.
 
-Una vez finalices, debes indicarle a Git que haga track de tus archivos, guardar los cambios en Git, y actualizar los cambios en Github.
+Una vez finalices, debes indicarle a Git que haga track de tus archivos, guardar los cambios en Git, y sincronizar los cambios en Github.
 
 Para indicarle a Git que haga track de tus archivos, abre Git en la carpeta donde están los mismo y escribe lo siguiente: 
 
@@ -168,7 +182,7 @@ Para Guardar los cambios en Git, debes hacer un commit, para ello escribe lo sig
 
 donde `mensaje` es una pequeña descripción de tu aporte.
 
-Para actualizar los cambios en Github, sólo hace falte hacer un push, para ello escribe lo siguiente:
+Para sincronizar los cambios en Github, sólo hace falte hacer un push, para ello escribe lo siguiente:
 
 `git push origin branch_name` 
 
@@ -202,8 +216,9 @@ Debes agregar un título a tú pull request, y opcionalmente puedes añadir una 
 
 ![Image](doc/assets/contributing/pull_request/13.jpg)
 
-¿Quieren saber más acercade como se hace un Pull Request? Visita https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+¿Quieres saber más acercade como se hace un Pull Request? Visita https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
+¿Quieres saber más acerca de git? Visita https://git-scm.com/book/es/v2
 
 <a name="recomendaciones-adicionales"/>
 
@@ -253,7 +268,7 @@ Si lo desea, también puede añadir la rama *develop_2* a su fork en Github, esc
 `git push origin develop_2`
 
 Recuerda que para hacer un push, debes estar en la consola de Git con la
- rama que quieres actualizar en Github; asegurate de ello
+ rama que quieres sincronizar en Github; asegurate de ello
  haciendo `git checkout develop_2` antes.
 
 También es recomendable que borres la rama de tus archivos en Github, luego hacer el pull request, para ello puedes escribir lo siguiente: 
@@ -273,9 +288,9 @@ de igual forma, debes presionar el botón **New pull request**
 ![Image](doc/assets/contributing/pull_request/10.jpg)
 
 Luego, (1) Selecciona el repositorio al que se va a hacer el pull request, en este caso seleccionaras tu repositorio, es decir aquel que comience con tu nombre de usuario.
- (2) Después, debes seleccionar la rama que quieres actualizar.
+ (2) Después, debes seleccionar la rama que quieres sincronizar.
  (3) elige el repositorio original, es decir, el que comienza con el nombre del otro usuario.
- (4) y escoge la rama desde donde quieres actualizar tu repositorio; es recomendable que la rama del paso (2) y del paso (4) sean las misma.
+ (4) y escoge la rama desde donde quieres sincronizar tu repositorio; es recomendable que la rama del paso (2) y del paso (4) sean las misma.
 
 Y presiona el botón **Create pull request**
 
@@ -319,7 +334,7 @@ Y ya con eso tenemos sincronizados los archivos en nuestro computador, de la ram
 
 Asegurate de estar en la rama **develop** antes de empezar. Para ello puedes escribir en la consola de Git:
 
-`git checkout develop` .
+`git checkout develop` 
 
 Si [actualizaste tu fork](#sincronizando-tu-fork), también es recomendable que actualices tus archivos locales. Escribiendo `git pull` puedes asegurarte.
 
