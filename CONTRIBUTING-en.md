@@ -6,7 +6,7 @@
 - [Sign up to GitHub](#sign-up-to-github)
 - [Sign up to Hacktoberfest](#sign-up-to-hacktoberfest)
 - [Required software](#software)
-- [Send your art](#send-your-art)
+- [Sending your art or doing pull request in this repository](#send-your-art)
 - [Additional recommendations](#additional-recommendations)
 
 <a name="restrictions"/>
@@ -87,11 +87,25 @@ Optionally, you can install some GUI for Git, such as [Source Tree](https://www.
 
 <a name="sending-your-art"/>
 
-### Sending your art
+### Sending your art or doing pull request in this repository
 
-**You'll always have to create your pull request against the develop branch, not the master one.**
+The process of making a pull request can be summarized in the following steps:
 
-Start forking this repository.
+- Fork the repository on Github.
+- Clone the fork on your computer.
+- Configure your basic data in the clone.
+- Create a branch from the develop branch.
+- Add in the corresponding folder the files you want to send.
+- Tell git which files to track.
+- Save changes to git with a commit.
+- Synchronize the fork in Github with a push.
+- And, pull request to the original repository from Github.
+
+Next, we'll take a closer look at how to do each step of the process.
+
+**Important note: You'll always have to create your pull request against the develop branch, never against the master one.**
+
+Start forking this repository, to do so just click on the fork button at the top right.
 
 ![Image](doc/assets/contributing/pull_request/00.jpg)
 
@@ -155,7 +169,7 @@ Note: for this example we'll use the username *user_name*.
 Save the corresponding files into the new folder.
 It's recommended to include a README.md file, where you can write a brief description, which program to use to open the resources, and any other information that you think it's important.
 
-Once you finish, you have to tell Git to track your files, to save your changes into the Git index, and update those changes in Github.
+Once you finish, you have to tell Git to track your files, to save your changes into the Git index, and synchronize those changes in Github.
 
 To tell Git to track your files, open Git inside the folder where they're, and type the following command:
 
@@ -169,7 +183,7 @@ To save your changes into the Git index, you have to create a commit, to do so, 
 
 where `message` goes a brief description of your contribution.
 
-To update the changes in Github, you just have to push them, to do so, type the following command:
+To synchronize the changes in Github, you just have to push them, to do so, type the following command:
 
 `git push origin branch_name` 
 
@@ -206,6 +220,7 @@ You have to add a title for your pull request, and optionally you can add a more
 
 Do you want to know more about how a Pull Request is made? Visit https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
+Do you want to know more about git? Visit https://git-scm.com/book/en/v2
 
 <a name="additional-recommendations"/>
 
@@ -257,7 +272,7 @@ If you wish, you can add the *develop_2* branch to your Github's fork as well, b
 Consider that before pushing your changes, you have to be in the Git console, and on the branch you want
 to update on Github; to be sure, just run: `git checkout develop_2`
 
-También es recomendable que borres la rama de tus archivos en Github, luego hacer el pull request, para ello puedes escribir lo siguiente: 
+It is also recommended that you delete the branch of your files on Github, then make the pull request, for this you can write the following: 
 
 `git push --delete origin branch_name`
 
@@ -320,7 +335,7 @@ By doing this, we'll have this branch's files sync locally in our computer.
 
 Check that you're on the **develop** branch before getting started. To do so you can type:
 
-`git checkout develop` .
+`git checkout develop` 
 
 If you've [synced your fork](#syncing-your-fork), is remcommended to sync your local files as well by typing `git pull`.
 
