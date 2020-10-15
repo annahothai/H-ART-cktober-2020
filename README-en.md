@@ -44,7 +44,7 @@ Throughout the month, a keyword will be revealed daily which, in combination wit
 |---------|---------|---------|---------|---------|---------|---------|
 | | | | | <sup>01</sup> Monolith | <sup>02</sup> Number | <sup>03</sup> Life |
 | <sup>04</sup> Elf | <sup>05</sup> Hackerman | <sup>06</sup> Schedule | <sup>07</sup> Party | <sup>08</sup> VR | <sup>09</sup> Orc | <sup>10</sup> Today |
-| <sup>11</sup> Hero | <sup>12</sup> selenites | <sup>13</sup> Talk | <sup>14</sup> Asterisk | <sup>15</sup> - | <sup>16</sup> - | <sup>17</sup> - |
+| <sup>11</sup> Hero | <sup>12</sup> selenites | <sup>13</sup> Talk | <sup>14</sup> Asterisk | <sup>15</sup> Matrix | <sup>16</sup> - | <sup>17</sup> - |
 | <sup>18</sup> - | <sup>19</sup> - | <sup>20</sup> - | <sup>21</sup> - | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
 | <sup>25</sup> - | <sup>26</sup> - | <sup>27</sup> - | <sup>28</sup> - | <sup>29</sup> - | <sup>30</sup> - | <sup>31</sup> - |
 
