@@ -1,1 +1,1 @@
-# -
+# Miniatura
