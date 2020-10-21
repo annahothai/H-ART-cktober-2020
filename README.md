@@ -45,7 +45,7 @@ A lo largo del mes, se revelará una palabra clave de forma diaria, que en combi
 | | | | | <sup>01</sup> Monolito | <sup>02</sup> Número | <sup>03</sup> Vida |
 | <sup>04</sup> Elfo | <sup>05</sup> Hackerman | <sup>06</sup> Horario | <sup>07</sup> Fiesta | <sup>08</sup> VR | <sup>09</sup> Orco | <sup>10</sup> Hoy |
 | <sup>11</sup> Héroe | <sup>12</sup> Selenitas  | <sup>13</sup> Conversación | <sup>14</sup> Asterisco | <sup>15</sup> Matriz | <sup>16</sup> Gnomo | <sup>17</sup> Humanidad |
-| <sup>18</sup> Miniatura | <sup>19</sup> Pantalla | <sup>20</sup> Génesis | <sup>21</sup> - | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
+| <sup>18</sup> Miniatura | <sup>19</sup> Pantalla | <sup>20</sup> Génesis | <sup>21</sup> Cuarentaidós (42) | <sup>22</sup> - | <sup>23</sup> - | <sup>24</sup> - |
 | <sup>25</sup> - | <sup>26</sup> - | <sup>27</sup> - | <sup>28</sup> - | <sup>29</sup> - | <sup>30</sup> - | <sup>31</sup> - |
 
 <a name="como-contribuir-en-este-repositorio"/>
