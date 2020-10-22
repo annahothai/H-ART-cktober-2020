@@ -347,4 +347,4 @@ Optionally, you can delete the same branch, but in the fork:
 
 `git push --delete origin branch_name`
 
-From now, you just have to repeat some steps to create a new pull request, specifically starting from [here](#nuevo-pr)
+From now, you just have to repeat some steps to create a new pull request, specifically starting from [here](#new-pr)
